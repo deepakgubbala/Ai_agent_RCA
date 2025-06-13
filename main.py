@@ -1,6 +1,6 @@
 import streamlit as st
-from jiraaa import getTicketDetails
-from temp import getLogData
+from jira import getTicketDetails
+from loki import getLogData
 import json
 
 st.header("Ai Agent Root cause analyzer")
